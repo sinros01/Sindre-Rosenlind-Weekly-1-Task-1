@@ -18,8 +18,8 @@ int main() {
 	std::cout << "Enter your phone number:\n";
 	std::cin >> phonenumber;
 	std::cout << "Enter date of birth:\n"; 
-	std::getline(std::cin, birthdate);
 	std::cin.ignore();
+	std::getline(std::cin, birthdate);
 	std::cin, Fullname;
 	std::cin, birthdate;
 	std::cout << "Your name:         |" << Fullname << std::endl;
@@ -27,7 +27,5 @@ int main() {
 	std::cout << "your initial:      |" << initial << std::endl;
 	std::cout << "your phone number: |" << phonenumber << std::endl;
 	std::cout << "your date of birth:|" << birthdate << std::endl;
-
-
 }
 
